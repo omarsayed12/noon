@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-boxs;
+    margin: 0;
+    padding: 0;
+}
+
+// start shopByBrandContent 
+.shopByBrandContent {
+    margin-bottom: 20px;
+}
+
+// start global style 
+.card {
+    border: 0;
+}
+
+.btn {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.productHeader {
+    padding: 15px 0;
+    .productHeadingName{
+        @media screen and (max-width: 360px) {
+            font-size: 16px;
+        }
+    }
+}
+
+.btn-outline-dark{
+    @media screen and (max-width: 360px){
+        font-size: 12px;
+    }
+}
+
+.card-body {
+    padding: 0;
+}
+
+.del {
+    font-size: 12px;
+    color: #Ccc;
+}

@@ -1,0 +1,41 @@
+.bgContianer {
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: #F7F7FA
+}
+
+%productCodeStyle {
+    font-size: 12px;
+    border: 1px solid #0056ff;
+    color: #0056ff;
+    font-weight: 600;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 2px 5px;
+    height: 25px
+}
+
+%cardText {
+    font-size: 12px;
+    color: #393939;
+    height: 35px;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.contactUsHeadingStyle {
+    font-weight: 700;
+    letter-spacing: .5px
+}
+
+%color-gray-font-small {
+    color: #7c7c7c;
+    font-size: $font-size-small;
+}
+
+%bg-grey-light-padding-margin{
+    background-color: #F5E9EA;
+    padding: 30px 0;
+    margin: 20px 0;
+}

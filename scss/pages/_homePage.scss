@@ -1,0 +1,27 @@
+// Start bgContainer
+.bgContainer {
+    padding: 0 40px;
+    @extend .bgContianer;
+    .beautyContent {
+        padding: $padding;
+    }
+    .products {
+        padding: 10px 30px;
+        .shopNow,
+        .beautyItem{
+            padding: $padding;
+        }
+    }
+    .productshow {
+        margin-top: 50px;
+        .productContent {
+            display: inline-block;
+            margin: 0 12px;
+            width: 115px;
+            cursor: pointer;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        padding: 0;
+    }
+}

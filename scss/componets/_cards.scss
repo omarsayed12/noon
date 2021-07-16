@@ -1,0 +1,40 @@
+
+// start Product style
+.boxHidden {
+    visibility: hidden;
+}
+
+.productCode {
+    @extend %productCodeStyle;
+}
+
+.producetDesc {
+    @extend %cardText;
+}
+
+.salaryProductNum {
+    margin-bottom: 0;
+}
+
+.salaryProduct {
+    height: 45px;
+}
+
+.expImg {
+    padding-top: 10px;
+    align-items: center;
+    img {
+        width: 39%;
+    }
+    .proRate {
+        i {
+            font-size: 13px;
+            color: #f5a523;
+        }
+        .stRate {
+            font-size: 13px;
+            font-weight: 500;
+            color: #a4a1a1;
+        }
+    }
+}

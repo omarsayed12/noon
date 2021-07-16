@@ -1,0 +1,409 @@
+.bgContianer, .bgContainer {
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  background-color: #F7F7FA;
+}
+
+.productCode {
+  font-size: 12px;
+  border: 1px solid #0056ff;
+  color: #0056ff;
+  font-weight: 600;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 2px 5px;
+  height: 25px;
+}
+
+.producetDesc {
+  font-size: 12px;
+  color: #393939;
+  height: 35px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.contactUsHeadingStyle, .footerContainer .contactUS .connectBySocial, .footerContainer .contactUS .shopOnGo .shopOnGoTitle {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.footerContainer .copyRight .copyRightLink .copyRightLinkItem, .footerContainer .copyRight .copyRightContent {
+  color: #7c7c7c;
+  font-size: 13px;
+}
+
+.bgwearableDevices, .brandMobile {
+  background-color: #F5E9EA;
+  padding: 30px 0;
+  margin: 20px 0;
+}
+
+.headerContent {
+  padding: 0;
+}
+.headerContent .navbar-bottom {
+  background-color: #FFF;
+  box-shadow: 2px 10px 10px 2px #000;
+  z-index: 99999;
+}
+.headerContent .navbar-bottom .label {
+  font-size: 11px;
+  color: #747b8d;
+  font-weight: 600;
+}
+@media screen and (min-width: 991.7px) {
+  .headerContent .navbar-bottom {
+    display: none;
+  }
+}
+@media screen and (max-width: 991px) {
+  .headerContent .navbar-bottom {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+}
+.headerContent .controlForm {
+  max-width: 100%;
+  width: 100%;
+}
+.headerContent .langOption,
+.headerContent .countrySelect,
+.headerContent .btn-login,
+.headerContent .btn-card {
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+}
+.headerContent .categories {
+  background: #fffce9;
+}
+.headerContent .categories .categoriesBtnItem {
+  border-right: 1px solid #e4dfdfcc;
+}
+.headerContent .categories .categoriesBtnItem .styleDrowpdown {
+  width: 100%;
+}
+.headerContent .categories .categoriesBtnItem .styleDrowpdown .styleDrowpdownMenu {
+  width: 100%;
+}
+.headerContent .categories .categoriesBtnItem .btn-item {
+  color: #3866DF;
+  font-weight: 700;
+  text-align: left;
+}
+@media screen and (max-width: 767px) {
+  .headerContent .categories .categoriesBtnItem .btn-item {
+    width: 100%;
+    text-align: inherit;
+  }
+}
+.headerContent .categories .upper-nav {
+  color: #4c4b4b;
+  font-weight: 600;
+  padding: 10px;
+  transition: color 0.2s;
+}
+.headerContent .categories .upper-nav:hover {
+  text-decoration: none;
+  color: #ffc107;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.boxHidden {
+  visibility: hidden;
+}
+
+.salaryProductNum {
+  margin-bottom: 0;
+}
+
+.salaryProduct {
+  height: 45px;
+}
+
+.expImg {
+  padding-top: 10px;
+  align-items: center;
+}
+.expImg img {
+  width: 39%;
+}
+.expImg .proRate i {
+  font-size: 13px;
+  color: #f5a523;
+}
+.expImg .proRate .stRate {
+  font-size: 13px;
+  font-weight: 500;
+  color: #a4a1a1;
+}
+
+.bgContainer {
+  padding: 0 40px;
+}
+.bgContainer .beautyContent {
+  padding: 30px 10px;
+}
+.bgContainer .products {
+  padding: 10px 30px;
+}
+.bgContainer .products .shopNow,
+.bgContainer .products .beautyItem {
+  padding: 30px 10px;
+}
+.bgContainer .productshow {
+  margin-top: 50px;
+}
+.bgContainer .productshow .productContent {
+  display: inline-block;
+  margin: 0 12px;
+  width: 115px;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .bgContainer {
+    padding: 0;
+  }
+}
+
+.priceList {
+  background-color: #efe8f5;
+  margin: 30px 0;
+  padding: 0 30px;
+}
+
+.mobileAccessoriesContent {
+  background-color: #F5E8DD;
+  margin-top: 15px;
+}
+
+.slick-prev {
+  left: -13px;
+}
+
+.priceList .slick-next {
+  right: 0;
+}
+
+.breadcrumb .breadcrumb-link {
+  color: #424242;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.brandMobileContent .brandMobileName {
+  font-size: 25px;
+  word-spacing: 1px;
+}
+.brandMobileContent .mobileModelContent {
+  font-size: 15px;
+}
+.brandMobileContent .proQuantityHeading {
+  font-size: 18px;
+  margin: 13px 0;
+}
+.brandMobileContent .avaiSoon {
+  width: 100%;
+  background-color: #81a6f4;
+  padding: 9px;
+  margin: 0 20px;
+}
+.brandMobileContent .avaiSoon a {
+  color: #f6f6f6f5;
+}
+.brandMobileContent .offersProduct {
+  font-size: 14px;
+}
+
+.carousel-indicators {
+  bottom: -37px;
+}
+.carousel-indicators li {
+  width: 24px;
+  background-color: #CCC;
+}
+.carousel-indicators .active {
+  background-color: #FEEE00;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 10%;
+}
+.carousel-control-next img,
+.carousel-control-prev img {
+  background-color: #FFF;
+  border-radius: 50%;
+  padding: 7px;
+}
+
+.slick-prev {
+  left: -15px;
+  z-index: 9999;
+}
+.slick-prev::before {
+  color: #525252;
+  font-size: 32px;
+}
+
+.slick-next {
+  right: -3px;
+  z-index: 9999;
+}
+.slick-next::before {
+  color: #525252;
+  font-size: 32px;
+}
+
+* {
+  box-sizing: border-boxs;
+  margin: 0;
+  padding: 0;
+}
+
+.shopByBrandContent {
+  margin-bottom: 20px;
+}
+
+.card {
+  border: 0;
+}
+
+.btn {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.productHeader {
+  padding: 15px 0;
+}
+@media screen and (max-width: 360px) {
+  .productHeader .productHeadingName {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .btn-outline-dark {
+    font-size: 12px;
+  }
+}
+
+.card-body {
+  padding: 0;
+}
+
+.del {
+  font-size: 12px;
+  color: #Ccc;
+}
+
+/* footer */
+.footerContainer .WeAreAlwaysHereToHelpDesc {
+  font-size: 13px;
+  color: #8c8c8c;
+}
+.footerContainer .supportItem {
+  padding: 0 3%;
+}
+.footerContainer .borderStyel {
+  border-bottom: 1px solid #e4dfdfcc;
+}
+.footerContainer .helpContainer:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+.footerContainer .helpContainer .helpIcon .supportItemIcon {
+  font-size: 21px;
+  background: #FFF;
+  color: #232222;
+  padding: 6px;
+  border-radius: 50%;
+  border: 1px solid #8c8c8c;
+  margin-right: 12px;
+}
+.footerContainer .helpContainer .helpLink .helpCenter {
+  font-size: 13px;
+  font-weight: 600;
+  color: #8c8c8c;
+}
+.footerContainer .helpContainer .helpLink .linkNoon {
+  font-size: 16px;
+  font-weight: 600;
+  color: #424242;
+  margin: 0;
+}
+.footerContainer .footerLink {
+  padding: 2% 3%;
+}
+@media screen and (max-width: 767.98px) {
+  .footerContainer .footerLink {
+    text-align: center;
+  }
+}
+.footerContainer .footerLink .footerLinkTitle {
+  padding-left: 10px;
+  font-size: 15px;
+}
+.footerContainer .footerLink .footerLinkOption .nav-link {
+  font-size: 13px;
+  color: #000;
+  text-transform: capitalize;
+  transition: all 0.4s;
+}
+.footerContainer .footerLink .footerLinkOption .nav-link:hover {
+  background-color: #f3f3f3f5;
+  box-shadow: 0 1px 2px 1px #09080326;
+}
+.footerContainer .contactUS .shopOnGo img {
+  width: 122px;
+  margin: 5px;
+}
+.footerContainer .contactUS .shopOnGo img:hover {
+  opacity: 0.8;
+}
+.footerContainer .contactUS .connectBySocial .connectBySocialIcon {
+  text-decoration: none;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #fef133;
+  border: 1px solid #eac500;
+  margin: 5px;
+}
+.footerContainer .contactUS .connectBySocial .connectBySocialIcon i {
+  line-height: 40px;
+  font-size: 21px;
+  color: #303030;
+}
+.footerContainer .contactUS .connectBySocial .connectBySocialIcon:hover {
+  opacity: 0.8;
+}
+.footerContainer .copyRight {
+  margin-top: 60px;
+  padding: 1% 2%;
+  border-top: 1px solid #e4dfdfcc;
+}
+@media screen and (max-width: 991px) {
+  .footerContainer .copyRight {
+    margin-bottom: 78px;
+  }
+}
+@media screen and (max-width: 871px) {
+  .footerContainer .copyRight {
+    flex-direction: column;
+  }
+}
+.footerContainer .copyRight .copyRightLink .copyRightLinkItem:hover {
+  color: #424242;
+}
+
+/*# sourceMappingURL=style.css.map */

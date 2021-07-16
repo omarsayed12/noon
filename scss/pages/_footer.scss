@@ -1,0 +1,125 @@
+  /* footer */
+    
+  .footerContainer {
+    .WeAreAlwaysHereToHelpDesc {
+        font-size: $font-size-small;
+        color: $color-grey;
+    }
+    .supportItem {
+        padding: 0 3%;
+    }
+    .borderStyel {
+        border-bottom:$border-color
+    }
+    .helpContainer {
+        &:hover {
+            text-decoration: none;
+            opacity: .7;
+        }
+        .helpIcon {
+            .supportItemIcon {
+                font-size: 21px;
+                background: #FFF;
+                color: #232222;
+                padding: 6px;
+                border-radius: 50%;
+                border: 1px solid $color-grey;
+                margin-right: 12px;
+            }
+        }
+        .helpLink {
+            .helpCenter {
+                font-size: $font-size-small;
+                font-weight: $font-weight-bold;
+                color: $color-grey;
+            }
+            .linkNoon {
+                font-size: 16px;
+                font-weight: $font-weight-bold;
+                color: $color-dark-light;
+                margin: 0;
+            }
+        }
+    }
+    .footerLink {
+        padding: 2% 3%;
+        @media screen and (max-width: 767.98px) {
+            text-align: center;
+        }
+        .footerLinkTitle {
+            padding-left: 10px;
+            font-size: 15px;
+        }
+        .footerLinkOption {
+            .nav-link {
+                font-size: $font-size-small;
+                color: #000;
+                text-transform: capitalize;
+                transition: all .4s;
+                &:hover {
+                    background-color: #f3f3f3f5;
+                    box-shadow: 0 1px 2px 1px #09080326;
+                }
+            }
+        }
+    }
+    .contactUS {
+        .shopOnGo {
+            .shopOnGoTitle {
+                @extend .contactUsHeadingStyle;
+            }
+            img {
+                width: 122px;
+                margin: 5px;
+                &:hover {
+                    opacity: $opacity-8;
+                }
+            }
+        }
+        .connectBySocial {
+            @extend .contactUsHeadingStyle;
+        }
+        .connectBySocial {
+            .connectBySocialIcon {
+                text-decoration: none;
+                display: inline-block;
+                width: $size-40;
+                height: $size-40;
+                border-radius: 50%;
+                background: #fef133;
+                border: 1px solid #eac500;
+                margin: 5px;
+                i {
+                    line-height: $size-40;
+                    font-size: 21px;
+                    color: #303030;
+                }
+                &:hover {
+                    opacity: $opacity-8;
+                }
+            }
+        }
+    }
+    .copyRight {
+        margin-top: 60px;
+        @media screen and (max-width: 991px) {
+            margin-bottom: 78px;
+        }
+        @media screen and (max-width:871px) {
+            flex-direction: column;
+        }
+        padding: 1% 2%;
+        border-top: $border-color;
+        .copyRightContent {
+           @extend %color-gray-font-small;
+        }
+        .copyRightLink {
+            .copyRightLinkItem {
+                @extend %color-gray-font-small;
+                &:hover{
+                    color:$color-dark-light
+                }
+            }
+        }
+    }
+}

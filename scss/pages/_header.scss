@@ -1,0 +1,70 @@
+// start headerContent
+.headerContent {
+    padding: 0;
+    .navbar-bottom {
+        background-color: #FFF;
+        box-shadow: 2px 10px 10px 2px #000;
+        z-index: 99999;
+        .label {
+            font-size: 11px;
+            color: #747b8d;
+            font-weight: 600;
+        }
+        @media screen and (min-width: 991.7px) {
+            display: none;
+        }
+        @media screen and (max-width: 991px) {
+            display: flex;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    }
+    .controlForm {
+        max-width: 100%;
+        width: 100%;
+    }
+    .langOption,
+    .countrySelect,
+    .btn-login,
+    .btn-card {
+        color: #000;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .categories {
+        background: #fffce9;
+        .categoriesBtnItem {
+            border-right: 1px solid #e4dfdfcc;
+            .styleDrowpdown {
+                width: 100%;
+                .styleDrowpdownMenu {
+                    width: 100%;
+                }
+            }
+            .btn-item {
+                color: #3866DF;
+                font-weight: 700;
+                text-align: left;
+                @media screen and (max-width: 767px) {
+                    width: 100%;
+                    text-align: inherit;
+                }
+            }
+        }
+        .upper-nav {
+            color: #4c4b4b;
+            font-weight: 600;
+            padding: 10px;
+            transition: color .2s;
+            &:hover{
+                text-decoration: none;
+                color: #ffc107;
+            }
+        }
+    }
+}
+
+.card {
+    cursor: pointer;
+}

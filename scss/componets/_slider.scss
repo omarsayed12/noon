@@ -1,0 +1,42 @@
+    
+    // carousel global style
+    .carousel-indicators {
+        bottom: -37px;
+        li {
+            width: 24px;
+            background-color: #CCC;
+        }
+        & .active {
+            background-color: #FEEE00;
+        }
+    }
+    
+    .carousel-control-next,
+    .carousel-control-prev {
+        width: 10%;
+        img {
+            background-color: #FFF;
+            border-radius: 50%;
+            padding: 7px;
+        }
+    }
+    
+    // start slick carousel
+    .slick-prev {
+        left: -15px;
+        z-index: 9999;
+        &::before {
+            color: #525252;
+            font-size: 32px;
+        }
+    }
+    
+    .slick-next {
+        right: -3px;
+        z-index: 9999;
+        &::before {
+            color: #525252;
+            font-size: 32px;
+        }
+    }
+    
